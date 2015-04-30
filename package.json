@@ -2,6 +2,7 @@
   "name": "fis-page",
   "description": "A fis page generation tool",
   "version": "0.0.1",
+  "main": "fis-page.js",
   "bin": {
     "fis-page": "bin/fis-page",
     "fispage": "bin/fis-page"
@@ -23,11 +24,17 @@
   "bugs": {
     "url": "https://github.com/exp-team/fis-page/issues"
   },
-  "author": "sobird",
+  "author": {
+    "name": "sobird"
+  },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/exp-team/fis-page/blob/master/LICENSE"
+      "url": "https://github.com/exp-team/fis-page/blob/master/LICENSE-MIT"
     }
-  ]
+  ],
+  "readme": "# fis-page\r\na fis static page generation tool\r\n",
+  "readmeFilename": "README.md",
+  "_id": "fis-page@0.0.1",
+  "_from": "fis-page@"
 }

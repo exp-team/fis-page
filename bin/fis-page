@@ -1,1 +1,9 @@
 #!/usr/bin/env node
+
+'use strict';
+
+process.title = 'fis-page';
+
+var fis = require('../fis-page.js');
+
+fis(require('fis'));

@@ -10,4 +10,8 @@
 
 module.exports = function(fis) {
     //TODO
+    fis.cli.name = "fis-page";
+    fis.cli.info = fis.util.readJSON(__dirname + '/package.json');
+
+    fis.cli.run(process.argv);
 }
