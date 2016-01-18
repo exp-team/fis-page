@@ -6,4 +6,4 @@ process.title = 'fis-page';
 
 var fis = require('../fis-page.js');
 
-fis(require('fis'));
+fis.cli.run(process.argv);

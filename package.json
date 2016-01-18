@@ -1,6 +1,6 @@
 {
   "name": "fis-page",
-  "description": "A fis page generation tool",
+  "description": "A fis page generation tool,Simply taking you from ideas to finished",
   "version": "0.0.2",
   "main": "fis-page.js",
   "bin": {
